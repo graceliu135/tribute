@@ -1,0 +1,89 @@
+body {
+  font-family: 'Andale-Mono', monospace;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #d9f0ff;
+  padding: 2rem 1rem;
+  border-bottom: 2px solid #b3e0ff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.bucket-list-section {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+  border-top: 2px solid #b3e0ff;
+}
+
+.bucket-list-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bucket-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin: 1rem;
+  font-size: 1.25rem;
+}
+
+.card p {
+  margin: 0 1rem 1rem;
+  font-size: 0.95rem;
+}
+
+.visited-section {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #f0f9ff;
+  border-top: 2px solid #b3e0ff;
+}
+
+.visited-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.visited-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: auto;
+}
